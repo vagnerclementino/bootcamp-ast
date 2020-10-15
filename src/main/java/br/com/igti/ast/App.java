@@ -20,12 +20,16 @@ public final class App {
     }
 
     public static void main(String[] args) {
+        // Código para o padrão A
         runPadraoA();
 
+        // Código para o padrão A
         runPadraoB();
 
+        // Código para o padrão A
         runPadraoC();
 
+        // Código para o padrão A
         runPadraoD();
     }
 
