@@ -1,0 +1,12 @@
+me/clementino/solid/interfacesegregation/ICreateReadUpdateDelete.java
+ me.clementino.solid.interfacesegregation.ICreateReadUpdateDelete
+me/clementino/solid/interfacesegregation/Person.java
+ me.clementino.solid.interfacesegregation.Person
+me/clementino/solid/interfacesegregation/InMemoryCRUD.java
+ me.clementino.solid.interfacesegregation.InMemoryCRUD
+me/clementino/solid/interfacesegregation/PersonController.java
+ me.clementino.solid.interfacesegregation.PersonController
+me/clementino/solid/interfacesegregation/DeleteWithConfirmationCRUD.java
+ me.clementino.solid.interfacesegregation.DeleteWithConfirmationCRUD
+me/clementino/solid/interfacesegregation/InterfaceSegregationExample.java
+ me.clementino.solid.interfacesegregation.InterfaceSegregationExample

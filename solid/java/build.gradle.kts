@@ -11,7 +11,8 @@ repositories {
 }
 
 dependencies {
-    testCompile("junit", "junit", "4.12")
+    implementation("org.junit.jupiter:junit-jupiter:5.4.2")
+    testImplementation("org.hamcrest:hamcrest:2.2")
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
@@ -22,4 +23,8 @@ tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml
     changeNotes("""
       Add change notes here.<br>
       <em>most HTML tags may be used</em>""")
+}
+
+tasks.test {
+  useJUnitPlatform()
 }
