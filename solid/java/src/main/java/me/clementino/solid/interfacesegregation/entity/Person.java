@@ -10,6 +10,14 @@ public class Person {
     }
 
     @Override
+    public String toString() {
+        return "Person{" +
+            "name='" + name + '\'' +
+            ", age=" + age +
+            '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Person)) return false;

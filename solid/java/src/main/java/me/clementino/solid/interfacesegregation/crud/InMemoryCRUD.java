@@ -1,7 +1,5 @@
 package me.clementino.solid.interfacesegregation.crud;
 
-import me.clementino.solid.interfacesegregation.crud.ICreateReadUpdateDelete;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +18,7 @@ public class InMemoryCRUD<T> implements ICreateReadUpdateDelete<T> {
 
     @Override
     public T readOne(T entity) {
-        var optionalT = this.storage
+        var optionalT = storage
             .stream()
             .filter(e -> e.equals(entity))
             .findAny();
@@ -33,22 +31,22 @@ public class InMemoryCRUD<T> implements ICreateReadUpdateDelete<T> {
 
     @Override
     public List<T> readAll() {
-        return this.storage;
+        return storage;
     }
 
     @Override
     public void update(T entity) {
-        if (this.storage.removeIf(e -> e.equals(entity))) {
-            this.storage.add(entity);
+        if (storage.removeIf(e -> e.equals(entity))) {
+            storage.add(entity);
         }
     }
 
     @Override
     public void delete(T entity) {
-        this.storage.removeIf(e -> e.equals(entity));
+        storage.removeIf(e -> e.equals(entity));
     }
 
     public int getSize() {
-        return this.storage.size();
+        return storage.size();
     }
 }

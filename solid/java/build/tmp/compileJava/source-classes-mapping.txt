@@ -1,12 +1,28 @@
-me/clementino/solid/interfacesegregation/ICreateReadUpdateDelete.java
- me.clementino.solid.interfacesegregation.ICreateReadUpdateDelete
-me/clementino/solid/interfacesegregation/Person.java
- me.clementino.solid.interfacesegregation.Person
-me/clementino/solid/interfacesegregation/InMemoryCRUD.java
- me.clementino.solid.interfacesegregation.InMemoryCRUD
-me/clementino/solid/interfacesegregation/PersonController.java
- me.clementino.solid.interfacesegregation.PersonController
-me/clementino/solid/interfacesegregation/DeleteWithConfirmationCRUD.java
- me.clementino.solid.interfacesegregation.DeleteWithConfirmationCRUD
+me/clementino/solid/interfacesegregation/crud/IDelete.java
+ me.clementino.solid.interfacesegregation.crud.IDelete
+me/clementino/solid/interfacesegregation/crud/InMemoryCRUD.java
+ me.clementino.solid.interfacesegregation.crud.InMemoryCRUD
+me/clementino/solid/interfacesegregation/crud/ISave.java
+ me.clementino.solid.interfacesegregation.crud.ISave
+me/clementino/solid/interfacesegregation/controller/PersonController.java
+ me.clementino.solid.interfacesegregation.controller.PersonController
+me/clementino/solid/interfacesegregation/controller/PersonControllerV2.java
+ me.clementino.solid.interfacesegregation.controller.PersonControllerV2
+me/clementino/solid/interfacesegregation/crud/DeleteConfirmation.java
+ me.clementino.solid.interfacesegregation.crud.DeleteConfirmation
+me/clementino/solid/interfacesegregation/crud/InMemoryCRUDV2.java
+ me.clementino.solid.interfacesegregation.crud.InMemoryCRUDV2
+me/clementino/solid/interfacesegregation/crud/DeleteConfirmationV2.java
+ me.clementino.solid.interfacesegregation.crud.DeleteConfirmationV2
+me/clementino/solid/interfacesegregation/entity/Person.java
+ me.clementino.solid.interfacesegregation.entity.Person
+me/clementino/solid/interfacesegregation/crud/IRead.java
+ me.clementino.solid.interfacesegregation.crud.IRead
+me/clementino/solid/interfacesegregation/crud/ICreateReadUpdateDelete.java
+ me.clementino.solid.interfacesegregation.crud.ICreateReadUpdateDelete
+me/clementino/solid/interfacesegregation/crud/ReadCaching.java
+ me.clementino.solid.interfacesegregation.crud.ReadCaching
+me/clementino/solid/interfacesegregation/crud/SaveAuditing.java
+ me.clementino.solid.interfacesegregation.crud.SaveAuditing
 me/clementino/solid/interfacesegregation/InterfaceSegregationExample.java
  me.clementino.solid.interfacesegregation.InterfaceSegregationExample

@@ -14,23 +14,23 @@ public class PersonController {
         this.decoratedCRUD = decoratedCRUD;
     }
 
-    public Optional<Person> findPerson(Person person){
-        return Optional.ofNullable(this.decoratedCRUD.readOne(person));
+    public Optional<Person> findPerson(Person person) {
+        return Optional.ofNullable(decoratedCRUD.readOne(person));
     }
 
-    public List<Person> findAll(){
-        return this.decoratedCRUD.readAll();
+    public List<Person> findAll() {
+        return decoratedCRUD.readAll();
     }
 
-    public void savePerson(Person person){
-        this.decoratedCRUD.create(person);
+    public void savePerson(Person person) {
+        decoratedCRUD.create(person);
     }
 
-    public void updatePerson(Person person){
-        this.decoratedCRUD.update(person);
+    public void updatePerson(Person person) {
+        decoratedCRUD.update(person);
     }
 
-    public void deletePerson(Person person){
-        this.decoratedCRUD.delete(person);
+    public void deletePerson(Person person) {
+        decoratedCRUD.delete(person);
     }
 }
