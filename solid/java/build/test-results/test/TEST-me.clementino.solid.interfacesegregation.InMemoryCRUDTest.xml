@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.clementino.solid.interfacesegregation.InMemoryCRUDTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-01-11T23:58:42" hostname="LELIS" time="0.088">
+  <properties/>
+  <testcase name="shouldReadOnePerson()" classname="me.clementino.solid.interfacesegregation.InMemoryCRUDTest" time="0.043"/>
+  <testcase name="shouldDeleteAPersonWithSuccess()" classname="me.clementino.solid.interfacesegregation.InMemoryCRUDTest" time="0.014"/>
+  <testcase name="shouldReadAllPersonsWithSuccess()" classname="me.clementino.solid.interfacesegregation.InMemoryCRUDTest" time="0.005"/>
+  <testcase name="shouldCreateAPerson()" classname="me.clementino.solid.interfacesegregation.InMemoryCRUDTest" time="0.004"/>
+  <testcase name="shouldUpdateAPersonWithSuccess()" classname="me.clementino.solid.interfacesegregation.InMemoryCRUDTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

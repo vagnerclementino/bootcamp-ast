@@ -1,0 +1,2 @@
+me/clementino/solid/interfacesegregation/InMemoryCRUDTest.java
+ me.clementino.solid.interfacesegregation.InMemoryCRUDTest
